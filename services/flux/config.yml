@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  namespace: flux
+  name: flux-ssh-config
+data:
+  known_hosts: |-
+    gitlab.org,2606:4700:90:0:f22e:fbec:5bed:a9b9
